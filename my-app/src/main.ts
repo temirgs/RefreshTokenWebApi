@@ -3,33 +3,33 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.min.css'
+import VueMaterial from "vue-material";
+import "vue-material/dist/vue-material.min.css";
 
-Vue.use(VueMaterial)
+Vue.use(VueMaterial);
 Vue.config.productionTip = false;
 
 router.beforeEach((to, from, next) => {
   if (to.matched.some(record => record.meta.requiresAuth)) {
     if (!store.getters.loggedIn) {
       next({
-        name: 'Login',       
-      })
+        name: "Login"
+      });
     } else {
-      next()
+      next();
     }
   } else if (to.matched.some(record => record.meta.requiresVisitor)) {
     if (store.getters.loggedIn) {
       next({
-        name: 'Home',              
-      })
+        name: "Home"
+      });
     } else {
-      next()
+      next();
     }
   } else {
-    next() 
+    next();
   }
-})
+});
 
 new Vue({
   router,

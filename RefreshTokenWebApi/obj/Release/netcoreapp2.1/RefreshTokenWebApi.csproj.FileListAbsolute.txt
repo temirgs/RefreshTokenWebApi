@@ -1,0 +1,14 @@
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\bin\Release\netcoreapp2.1\RefreshTokenWebApi.deps.json
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\bin\Release\netcoreapp2.1\RefreshTokenWebApi.runtimeconfig.json
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\bin\Release\netcoreapp2.1\RefreshTokenWebApi.runtimeconfig.dev.json
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\bin\Release\netcoreapp2.1\RefreshTokenWebApi.dll
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\bin\Release\netcoreapp2.1\RefreshTokenWebApi.pdb
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.csprojAssemblyReference.cache
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.RazorAssemblyInfo.cache
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.RazorAssemblyInfo.cs
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.AssemblyInfoInputs.cache
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.AssemblyInfo.cs
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.dll
+C:\Users\Temir\OneDrive\Proyektler\RefreshTokenWebApi\RefreshTokenWebApi\obj\Release\netcoreapp2.1\RefreshTokenWebApi.pdb

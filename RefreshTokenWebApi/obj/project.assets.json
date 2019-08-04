@@ -12708,11 +12708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Temir\\OneDrive\\Documents\\RefreshTokenWebApi\\RefreshTokenWebApi\\RefreshTokenWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Temir\\OneDrive\\Proyektler\\RefreshTokenWebApi\\RefreshTokenWebApi\\RefreshTokenWebApi.csproj",
       "projectName": "RefreshTokenWebApi",
-      "projectPath": "C:\\Users\\Temir\\OneDrive\\Documents\\RefreshTokenWebApi\\RefreshTokenWebApi\\RefreshTokenWebApi.csproj",
+      "projectPath": "C:\\Users\\Temir\\OneDrive\\Proyektler\\RefreshTokenWebApi\\RefreshTokenWebApi\\RefreshTokenWebApi.csproj",
       "packagesPath": "C:\\Users\\Temir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Temir\\OneDrive\\Documents\\RefreshTokenWebApi\\RefreshTokenWebApi\\obj\\",
+      "outputPath": "C:\\Users\\Temir\\OneDrive\\Proyektler\\RefreshTokenWebApi\\RefreshTokenWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

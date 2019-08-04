@@ -1,24 +1,26 @@
 <template>
-  <div class="container">
+  <div style="width:600px;margin-top:130px" class="container">
     <br />
     <br />
     <form @submit.prevent="onSubmit">
       <md-field>
         <label>UserName</label>
-        <md-input v-model="register.username"></md-input>
+        <md-input id="rg_username" v-model="register.username"></md-input>
       </md-field>
 
       <md-field>
         <label>Password</label>
-        <md-input v-model="register.password" type="password"></md-input>
+        <md-input id="rg_password" v-model="register.password" type="password"></md-input>
       </md-field>
 
       <md-field>
         <label>Email</label>
-        <md-input v-model="register.email" type="email"></md-input>
+        <md-input id="rg_email" v-model="register.email" type="email"></md-input>
       </md-field>
 
-      <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+      <button id="rg_buttonRegister" type="submit" class="btn btn-primary btn-lg btn-block">
+        Register
+      </button>
     </form>
   </div>
 </template>

@@ -15,12 +15,12 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(item,index) in Personal" :key="index">
-          <th scope="row">{{item.id}}</th>
-          <td>{{item.name}}</td>
-          <td>{{item.surname}}</td>
-          <td>{{item.phoneNumber}}</td>
-          <td>{{item.brithDate}}</td>
+        <tr v-for="(item, index) in Personal" :key="index">
+          <th scope="row">{{ item.id }}</th>
+          <td>{{ item.name }}</td>
+          <td>{{ item.surname }}</td>
+          <td>{{ item.phoneNumber }}</td>
+          <td>{{ item.brithDate }}</td>
           <td>
             <button type="button" class="btn btn-primary">Update</button>
           </td>
@@ -33,27 +33,32 @@
   </dir>
 </template>
 <script lang="ts">
-import Vue from 'vue'
-import axios from 'axios'
+import Vue from "vue";
+import axios from "axios";
 export default Vue.extend({
-  data(){
-    return{
-      Personal:[]
-    } 
+  data() {
+    return {
+      Personal: []
+    };
   },
-  methods:{
-    loadPersonal(){
-      console.log('home page loaded');
-      let token = 'Bearer ' + this.$store.state.token;
-      
-      console.log(token)
-    //axios.defaults.headers.common['Authorization'] = 'bearer' + this.$store.state.token
-     axios.get('http://localhost:52091/api/Values/GetPersonalList', {headers: {Authorization: token} }).then(response=>{this.Personal=response.data})
+  methods: {
+    loadPersonal() {
+      console.log("home page loaded");
+      let token = "Bearer " + this.$store.state.token;
+
+      console.log(token);
+      //axios.defaults.headers.common['Authorization'] = 'bearer' + this.$store.state.token
+      axios
+        .get("http://localhost:52091/api/Values/GetPersonalList", {
+          headers: { Authorization: token }
+        })
+        .then(response => {
+          this.Personal = response.data;
+        });
     }
   },
-  created()
-  {
+  created() {
     this.loadPersonal();
   }
-})
+});
 </script>
